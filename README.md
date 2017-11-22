@@ -1,2 +1,1 @@
-# os-course
-Stepic course sources
+https://stepik.org/course/1780/

@@ -5,6 +5,8 @@ import (
 	"math"
 )
 
+// x86 real mode address mapping: (segment*16 + offset) mod (2^20)
+// where segment and offset — 16-bit values
 func main() {
 	lowOrder20BitsModValue := int(math.Pow(2, 20))
 	result := 0
